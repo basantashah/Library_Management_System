@@ -13,6 +13,10 @@ class Library:
         
     def add_book(self, book):
         self.books.append(book)
+    
+    def list_book(self):
+        for book in self.books:
+            print(f"Serial Number: {book.serial_number}, Title: {book.title}, Author: {book.author}, Publication: {book.publication}")
         
     # def add_book(self, title, author, publication):
     #     book = Book(self.serial_counter, title, author, publication)
@@ -32,15 +36,23 @@ if __name__ == "__main__":
         print("book added")
     
     
+    def list_books():
+        print("Books in the library")
+        library.list_book()
+        
+    
         
     while True:
         print("\n Please press on list of Menu provided")
         print("1. Add a book")
+        print("2. List books")
         
         choice = input("Enter your choice")
         
         if choice == "1":
             add_new_book()
+        elif choice == "2":
+            list_books()
         else:
             print("Invalid option")
         
