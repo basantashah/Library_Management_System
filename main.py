@@ -9,6 +9,7 @@ class Book:
 class Library:
     def __init__(self):
         self.books = []
+        self.add_default_book()
         # self.serial_counter = 1 #starting from 1 for serial counter
         
     def add_book(self, book):
@@ -17,7 +18,16 @@ class Library:
     def list_book(self):
         for book in self.books:
             print(f"Serial Number: {book.serial_number}, Title: {book.title}, Author: {book.author}, Publication: {book.publication}")
-        
+    
+    def add_default_book(self):
+        default_book = [
+            Book("1","a","a","a"),
+            Book("2","a","a","a"),
+            Book("3","a","a","a"),
+            Book("4","a","a","a")
+        ]  
+        for book in default_book:
+            self.add_book(book)
     # def add_book(self, title, author, publication):
     #     book = Book(self.serial_counter, title, author, publication)
     #     self.book.append(book)
