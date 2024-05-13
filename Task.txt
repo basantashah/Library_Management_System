@@ -1,0 +1,30 @@
+Instructions:
+1. You will be provided with a problem statement and a set of tasks to complete.
+2. Write your solution in a programming language of your choice, adhering to best practices and
+principles of software engineering.
+3. Ensure your code is well-documented, easy to understand, and properly structured.
+4. Submit your solution within the specified deadline.
+Problem Statement:
+You are tasked with designing a simple library management system. The system should be able to
+perform the following tasks:
+1. Add a new book to the library.
+2. Remove a book from the library.
+3. Search for a book by title or author.
+4. Display a list of all books in the library.
+5. Calculate the total number of books in the library.
+Tasks:
+1. Design and implement the necessary classes to represent the library and books.
+2. Include attributes and methods as you see fit
+3. Write methods to perform each of the tasks listed in the problem statement.
+4. Create a test script to demonstrate the functionality of your library management system. Include
+examples of adding books, removing books, searching for books, displaying the list of books, and
+calculating the total number of books.
+Submission Guidelines:
+1. Submit your source code files along with any necessary instructions for running your code.
+2. Include documentation explaining your design decisions and any assumptions you made.
+3. Submit your solution in a compressed file format (e.g., zip or tar.gz).
+Additional Information:
+- You are encouraged to use any programming language of your choice.
+- Feel free to use libraries or frameworks if you deem it necessary.
+- Ensure your code is well-structured, readable, and follows best practices.
+- You may include additional features or improvements to the system if you wish.
